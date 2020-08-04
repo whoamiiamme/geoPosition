@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 1.7;
+	color: #777777;
+	padding: 3rem;
+}
+
+.login-body {
+	height: 95vh;
+	padding: 4rem;
+	background-color: #f2f2f2;
+}
+
+.login-contaier {
+	border-radius: 5px;
+	background-color: #b32020;
+  padding: 20px;
+  width: 30vw;
+}
+
+.login-container__input {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+
+.login-label__infornation {
+  font-weight: 100;
+  font-size: 1.6rem;
+}
+
+
+.btn  {
+	text-decoration: none;
+	margin: 2rem;
+	padding: 1rem 2rem;
+	border-radius: 10rem;
+	background-color: #f2f2f2;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+
+.btn-login {
+	background-color: blue;
+	color: white
+}
+.btn-sign {
+	background-color: springgreen;
+	color: black;
+}
+
+.btn-new {
+	background-color: #b32020;
+	color: #ccc
+}
+
+.btn-logout {
+	background-color: teal;
+	color: #f2f2f2;
+}
+
+.home-container {
+	padding-top: 2rem 1rem;
+	padding-bottom: 0;
+	background-color: rgba(230, 230, 230, 0.747);
+	height: 90vh;
+	position: relative;
+}
+
+.home-layout-table {
+    width: 80vw;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+	transform: translateX(-50%);
+	height: 80vh;
+}
+
+.home-table {
+	color: black;
+	font-size: 1rem;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0.1rem solid #ddd;
+}
+
+.home-table > th {
+	color: rgba(0, 255, 242, 0);
+	text-align: center;
+	padding: 1.6rem;
+}
+
+th {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.task-control {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 100%;
+	transform: translateX(-50%);
+}
+
+.new_form {
+	width: 80vw;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+	transform: translateX(-50%);
+}
+
+.new_form_cell {
+	margin-right: 2rem;
+}
+
+.infination-address{
+	display: inline-block;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.infination-address__input {
+	width: 100%;
+	height: 3rem;
+}
+
+.table_home_image {
+	width: 6rem;
+}
+
+.btn-editdel {
+	margin: 0.6rem;
+	color: black;
+	font-size: 1rem;
+}
