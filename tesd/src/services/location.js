@@ -1,4 +1,4 @@
-const GEO_LOCATION_API_KEY = 'AIzaSyBs1lxFmjRDTQAJK2XYLG6frz1xqwRSH3M';
+const GEO_LOCATION_API_KEY = GEO_LOCATION_API_KEY;
 
 export function geoPosition() {
 	return new Promise((resolve) => {
