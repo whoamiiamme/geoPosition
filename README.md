@@ -1,2 +1,1 @@
-# geoPosition
-Mobx firebase location react
+# GeolocationPosition
